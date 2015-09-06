@@ -1,0 +1,6 @@
+<RCC>
+    <qresource prefix="/patch/355">
+        <file>res/Patches/CoreOS-3.55.bin</file>
+        <file>res/Patches/NAND-RVKList-3.55.bin</file>
+    </qresource>
+</RCC>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>about</class>
+ <widget class="QDialog" name="about">
+  <property name="windowModality">
+   <enum>Qt::ApplicationModal</enum>
+  </property>
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>458</width>
+    <height>363</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>About PlayStation 3 Flash Tool</string>
+  </property>
+  <property name="windowIcon">
+   <iconset resource="ps3flashtool.qrc">
+    <normaloff>:/icons/res/PS3NAND.png</normaloff>:/icons/res/PS3NAND.png</iconset>
+  </property>
+  <property name="modal">
+   <bool>true</bool>
+  </property>
+  <widget class="QGroupBox" name="groupBox">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>10</y>
+     <width>441</width>
+     <height>311</height>
+    </rect>
+   </property>
+   <property name="title">
+    <string>About PS3 Flash Tool</string>
+   </property>
+   <widget class="QLabel" name="lblAbout">
+    <property name="geometry">
+     <rect>
+      <x>80</x>
+      <y>20</y>
+      <width>351</width>
+      <height>311</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;PS3 Flash Tool v4.0 Public Release:&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;Special Thanks To: &lt;/span&gt;&lt;span style=&quot; font-weight:600; color:#ff0000;&quot;&gt;RPS&lt;/span&gt;&lt;span style=&quot; font-weight:600;&quot;&gt; (&lt;/span&gt;&lt;span style=&quot; font-weight:600; color:#0055ff;&quot;&gt;for ECC Algorithm&lt;/span&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;), &lt;/span&gt;&lt;span style=&quot; font-weight:600; color:#ff0000;&quot;&gt;Kado&lt;/span&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;, &lt;/span&gt;&lt;span style=&quot; font-weight:600; color:#ff0000;&quot;&gt;Rogero&lt;/span&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;, &lt;/span&gt;&lt;span style=&quot; font-weight:600; color:#ff0000;&quot;&gt;Joonie&lt;/span&gt;&lt;span style=&quot; font-weight:600;&quot;&gt; , &lt;/span&gt;&lt;span style=&quot; font-weight:600; color:#ff0000;&quot;&gt;EvilSperm&lt;/span&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;, &lt;/span&gt;&lt;span style=&quot; font-weight:600; color:#ff0000;&quot;&gt;Habib&lt;/span&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;, &lt;/span&gt;&lt;span style=&quot; font-weight:600; color:#ff0000;&quot;&gt;The1Wonder&lt;/span&gt;&lt;span style=&quot; font-weight:600;&quot;&gt; &amp;amp; All PS3 Flash Tool beta testers.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;This project cost me a lot of time and effort specially to make PS3 NAND handling so easy and error free without need to pay for some one to handle PS3 NAND dumps that can not be handled using public tool like FlowRebuilder or my old tool.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;So if you like it or you find that it is useful for you, you can donate to my paypal account to cover my time and effort cost :)&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;PayPal account: &lt;/span&gt;&lt;a href=&quot;mailto:mh.nasr@live.com&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#0000ff;&quot;&gt;mh.nasr@live.com&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;For any suggestion or bug report feel free to contact me on:&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;E-Mail: &lt;/span&gt;&lt;a href=&quot;mailto:mh.nasr@live.com&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#0000ff;&quot;&gt;mh.nasr@live.com&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;Skype: mh.nasr@live.com Or mh_nasr&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+    <property name="wordWrap">
+     <bool>true</bool>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QPushButton" name="btnOK">
+   <property name="geometry">
+    <rect>
+     <x>370</x>
+     <y>330</y>
+     <width>75</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>&amp;OK</string>
+   </property>
+  </widget>
+ </widget>
+ <resources>
+  <include location="ps3flashtool.qrc"/>
+ </resources>
+ <connections/>
+</ui>

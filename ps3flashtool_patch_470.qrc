@@ -1,0 +1,5 @@
+<RCC>
+    <qresource prefix="/patch/470">
+        <file>res/Patches/CoreOS-4.70-Darkjiros-CFW-noFSM.bin</file>
+    </qresource>
+</RCC>
